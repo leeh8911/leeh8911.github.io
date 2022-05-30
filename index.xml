@@ -3,9 +3,24 @@
         <title>My New Hugo Site</title>
         <link>http://example.org/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 23:09:16 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 May 2022 05:21:56 &#43;0900</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>220531</title>
+    <link>http://example.org/220531/</link>
+    <pubDate>Tue, 31 May 2022 05:21:56 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220531/</guid>
+    <description><![CDATA[<h1 id="polymorphism">Polymorphism</h1>
+<ul>
+<li>다형성(polymorphism)은 &ldquo;수 많은 형태를 가정&quot;했다는 의미</li>
+</ul>
+<h1 id="friend">Friend</h1>
+<ul>
+<li><code>friend</code> 클래스는 상속의 대안</li>
+</ul>]]></description>
+</item>
+<item>
     <title>220530</title>
     <link>http://example.org/220530/</link>
     <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
