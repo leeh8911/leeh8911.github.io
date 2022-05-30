@@ -5,10 +5,10 @@
         <description>inheritance - Tag - My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 23:09:16 &#43;0900</lastBuildDate><atom:link href="http://example.org/tags/inheritance/" rel="self" type="application/rss+xml" /><item>
     <title>220530</title>
-    <link>http://example.org/til/220530/</link>
+    <link>http://example.org/220530/</link>
     <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
     <author>Jaksam</author>
-    <guid>http://example.org/til/220530/</guid>
+    <guid>http://example.org/220530/</guid>
     <description><![CDATA[<h1 id="inheritance">Inheritance</h1>
 <ul>
 <li>&ldquo;Is a&rdquo;</li>
