@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/til/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
+            <loc>http://example.org/posts/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
             <loc>http://example.org/tags/access-specifier/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
             <loc>http://example.org/categories/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
             <loc>http://example.org/tags/composition/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
