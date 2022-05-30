@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 23:09:16 &#43;0900</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>TIL - Category - My New Hugo Site</title>
+        <link>http://example.org/categories/til/</link>
+        <description>TIL - Category - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 May 2022 23:09:16 &#43;0900</lastBuildDate><atom:link href="http://example.org/categories/til/" rel="self" type="application/rss+xml" /><item>
     <title>220530</title>
     <link>http://example.org/posts/til/220530/</link>
     <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
