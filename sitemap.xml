@@ -2,12 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/tags/access-specifier/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/tags/composition/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/tags/inheritance/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url><url>
-            <loc>http://example.org/categories/til/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod></url></urlset>
+            <loc>http://example.org/til/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/access-specifier/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/composition/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/inheritance/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/til/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/til/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
