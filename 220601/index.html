@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/220601\/"
-        },"image": ["http:\/\/example.org\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "operator overloading, virtual function, overriding","wordcount":  528 ,
+        },"image": ["http:\/\/example.org\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "operator_overloading, virtual_function, overriding, udacity","wordcount":  1043 ,
         "url": "http:\/\/example.org\/220601\/","datePublished": "2022-06-01T06:06:59+09:00","dateModified": "2022-06-01T06:06:59+09:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "http:\/\/example.org\/images\/avatar.png"},"author": {
@@ -73,8 +73,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">220601</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://www.linkedin.com/in/sangwon-lee-459b63156" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jaksam</a></span>&nbsp;<span class="post-category">included in <a href="/categories/til/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>TIL</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-01">2022-06-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;528 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;<span id="/220601/" class="leancloud_visitors" data-flag-title="220601">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-01">2022-06-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1043 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;<span id="/220601/" class="leancloud_visitors" data-flag-title="220601">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -82,8 +82,22 @@
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><h1 id="polymorphism-overloading-review">Polymorphism: overloading (review)</h1>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#polymorphism-overloading-review">Polymorphism: overloading (review)</a></li>
+    <li><a href="#polymorphism-operator">Polymorphism: operator</a></li>
+    <li><a href="#virtual-functions">Virtual Functions</a></li>
+    <li><a href="#overriding">Overriding</a>
+      <ul>
+        <li><a href="#concept-of-overriding">Concept of overriding</a></li>
+        <li><a href="#function-hiding">Function hiding</a></li>
+        <li><a href="#override-keyword"><code>Override</code> keyword</a></li>
+      </ul>
+    </li>
+    <li><a href="#multiple-inheritance">Multiple Inheritance</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="polymorphism-overloading-review">Polymorphism: overloading (review)</h2>
 <ul>
 <li>이전 강의에서 마저 듣지 못했던 나머지 내용 (코드 실습)</li>
 </ul>
@@ -137,7 +151,7 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h1 id="polymorphism-operator">Polymorphism: operator</h1>
+</div><h2 id="polymorphism-operator">Polymorphism: operator</h2>
 <ul>
 <li>ASCII table에 정의된 연산자를 선택해 새로운 연산 집합의 규칙을 정할 수 있음</li>
 </ul>
@@ -203,7 +217,7 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h1 id="virtual-functions">Virtual Functions</h1>
+</div><h2 id="virtual-functions">Virtual Functions</h2>
 <ul>
 <li><code>virtual return_t foo(input_t vars);</code></li>
 <li>virtual function은 다형성을 위한 특징</li>
@@ -333,7 +347,265 @@
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h1 id="overriding">Overriding</h1></div><div class="post-footer" id="post-footer">
+</div><h2 id="overriding">Overriding</h2>
+<h3 id="concept-of-overriding">Concept of overriding</h3>
+<ul>
+<li>overriding은 base class가 <code>virtual</code>함수로 정의 되었을 때 발생</li>
+<li>derived class가 <code>virtual</code> 함수가 갖고 있던 입/출력 파라미터로 정의</li>
+<li>예시</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Animal</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">virtual</span> <span class="n">std</span><span class="o">::</span><span class="n">striing</span> <span class="n">Talk</span><span class="p">()</span> <span class="k">const</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Talk</span><span class="p">()</span> <span class="k">const</span> <span class="p">{</span> <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="s">&#34;Meow&#34;</span><span class="p">);</span> <span class="p">}</span>    
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>실습</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;assert.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="k">class</span> <span class="nc">Animal</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+  <span class="k">virtual</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Talk</span><span class="p">()</span> <span class="k">const</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// TODO: Declare a class Dog that inherits from Animal
+</span><span class="c1"></span><span class="k">class</span> <span class="nc">Dog</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Talk</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="s">&#34;Woof&#34;</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Dog</span> <span class="n">dog</span><span class="p">;</span>
+  <span class="n">assert</span><span class="p">(</span><span class="n">dog</span><span class="p">.</span><span class="n">Talk</span><span class="p">()</span> <span class="o">==</span> <span class="s">&#34;Woof&#34;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="function-hiding">Function hiding</h3>
+<ul>
+<li><strong>function hiding</strong> 은 overriding과 유사하지만, 구분되는 특징이 있음</li>
+<li>base class의 함수가 <code>virtual</code>로 정의 되지 않는다면 derived class 는 base class 의 함수를 숨김(hide)</li>
+<li>예시</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Cat</span> <span class="p">{</span> <span class="c1">// Here, Cat does not derive from a base class
+</span><span class="c1"></span><span class="k">public</span><span class="o">:</span>
+  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Talk</span><span class="p">()</span> <span class="k">const</span> <span class="p">{</span> <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="s">&#34;Meow&#34;</span><span class="p">);</span> <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Lion</span> <span class="o">:</span> <span class="k">public</span> <span class="n">Cat</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+  <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Talk</span><span class="p">()</span> <span class="k">const</span> <span class="p">{</span> <span class="k">return</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="s">&#34;Roar&#34;</span><span class="p">);</span> <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="override-keyword"><code>Override</code> keyword</h3>
+<ul>
+<li><em>overriding</em>은 derived class가 상속 받은 <code>virtual</code>함수를 구현하였을 때 발생</li>
+<li><code>override</code> 키워드를 통해 지정할 수 있지만, 필수적이진 않음
+<ul>
+<li>이 키워드를 사용할 때, overriding 되지 않으면 에러가 발생함</li>
+</ul>
+</li>
+<li>예시 코드</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Shape</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+  <span class="k">virtual</span> <span class="kt">double</span> <span class="n">Area</span><span class="p">()</span> <span class="k">const</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="k">virtual</span> <span class="kt">double</span> <span class="nf">Perimeter</span><span class="p">()</span> <span class="k">const</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">class</span> <span class="nc">Circle</span> <span class="o">:</span> <span class="k">public</span> <span class="n">Shape</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+  <span class="n">Circle</span><span class="p">(</span><span class="kt">double</span> <span class="n">radius</span><span class="p">)</span> <span class="o">:</span> <span class="n">radius_</span><span class="p">(</span><span class="n">radius</span><span class="p">)</span> <span class="p">{}</span>
+  <span class="kt">double</span> <span class="nf">Area</span><span class="p">()</span> <span class="k">const</span> <span class="k">override</span> <span class="p">{</span> <span class="k">return</span> <span class="n">pow</span><span class="p">(</span><span class="n">radius_</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">PI</span><span class="p">;</span> <span class="p">}</span> <span class="c1">// specified as an override function
+</span><span class="c1"></span>  <span class="kt">double</span> <span class="nf">Perimeter</span><span class="p">()</span> <span class="k">const</span> <span class="k">override</span> <span class="p">{</span> <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">radius_</span> <span class="o">*</span> <span class="n">PI</span><span class="p">;</span> <span class="p">}</span> <span class="c1">// specified as an override function
+</span><span class="c1"></span>
+<span class="k">private</span><span class="o">:</span>
+  <span class="kt">double</span> <span class="n">radius_</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>실습 코드</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;assert.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="c1">// TODO: Define PI
+</span><span class="c1"></span><span class="k">const</span> <span class="kt">double</span> <span class="n">PI</span> <span class="o">=</span> <span class="mf">3.14159</span><span class="p">;</span>
+
+<span class="c1">// TODO: Declare abstract class VehicleModel
+</span><span class="c1"></span><span class="k">class</span> <span class="nc">VehicleModel</span> <span class="p">{</span>
+  <span class="c1">// TODO: Declare virtual function Move()
+</span><span class="c1"></span><span class="k">public</span><span class="o">:</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">Move</span><span class="p">(</span><span class="kt">double</span> <span class="n">v</span><span class="p">,</span> <span class="kt">double</span> <span class="n">theta</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// TODO: Derive class ParticleModel from VehicleModel
+</span><span class="c1"></span><span class="k">class</span> <span class="nc">ParticleModel</span> <span class="o">:</span> <span class="k">public</span> <span class="n">VehicleModel</span> <span class="p">{</span>
+  <span class="c1">// TODO: Override the Move() function
+</span><span class="c1"></span>  <span class="c1">// TODO: Define x, y, and theta
+</span><span class="c1"></span><span class="k">public</span><span class="o">:</span>
+    <span class="kt">void</span> <span class="n">Move</span><span class="p">(</span><span class="kt">double</span> <span class="n">v</span><span class="p">,</span> <span class="kt">double</span> <span class="n">phi</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">theta</span> <span class="o">+=</span> <span class="n">phi</span><span class="p">;</span>
+        <span class="n">x</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">);</span>
+        <span class="n">y</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">double</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">theta</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// TODO: Derive class BicycleModel from ParticleModel
+</span><span class="c1"></span><span class="k">class</span> <span class="nc">BicycleModel</span> <span class="o">:</span> <span class="k">public</span> <span class="n">ParticleModel</span> <span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="kt">void</span> <span class="n">Move</span><span class="p">(</span><span class="kt">double</span> <span class="n">v</span><span class="p">,</span> <span class="kt">double</span> <span class="n">phi</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">theta</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">/</span> <span class="n">L</span> <span class="o">*</span> <span class="n">tan</span><span class="p">(</span><span class="n">phi</span><span class="p">);</span>
+        <span class="n">x</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">);</span>
+        <span class="n">y</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="kt">double</span> <span class="n">L</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="c1">// TODO: Pass the tests
+</span><span class="c1"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Test function overriding
+</span><span class="c1"></span>  <span class="n">ParticleModel</span> <span class="n">particle</span><span class="p">;</span>
+  <span class="n">BicycleModel</span> <span class="n">bicycle</span><span class="p">;</span>
+  <span class="n">particle</span><span class="p">.</span><span class="n">Move</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">PI</span> <span class="o">/</span> <span class="mi">9</span><span class="p">);</span>
+  <span class="n">bicycle</span><span class="p">.</span><span class="n">Move</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="n">PI</span> <span class="o">/</span> <span class="mi">9</span><span class="p">);</span>
+  <span class="n">assert</span><span class="p">(</span><span class="n">particle</span><span class="p">.</span><span class="n">x</span> <span class="o">!=</span> <span class="n">bicycle</span><span class="p">.</span><span class="n">x</span><span class="p">);</span>
+  <span class="n">assert</span><span class="p">(</span><span class="n">particle</span><span class="p">.</span><span class="n">y</span> <span class="o">!=</span> <span class="n">bicycle</span><span class="p">.</span><span class="n">y</span><span class="p">);</span>
+  <span class="n">assert</span><span class="p">(</span><span class="n">particle</span><span class="p">.</span><span class="n">theta</span> <span class="o">!=</span> <span class="n">bicycle</span><span class="p">.</span><span class="n">theta</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="multiple-inheritance">Multiple Inheritance</h2>
+<ul>
+<li></li>
+</ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -344,13 +616,13 @@
                             <a class="link-to-markdown" href="/220601/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/220601/" data-hashtag="operator overloading"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://example.org/220601/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/220601/" data-hashtag="operator_overloading"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://example.org/220601/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/operator-overloading/">operator overloading</a>,&nbsp;<a href="/tags/virtual-function/">virtual function</a>,&nbsp;<a href="/tags/overriding/">overriding</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/operator_overloading/">operator_overloading</a>,&nbsp;<a href="/tags/virtual_function/">virtual_function</a>,&nbsp;<a href="/tags/overriding/">overriding</a>,&nbsp;<a href="/tags/udacity/">udacity</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>

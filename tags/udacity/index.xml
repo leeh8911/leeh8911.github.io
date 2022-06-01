@@ -1,0 +1,49 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>udacity - Tag - My New Hugo Site</title>
+        <link>http://example.org/tags/udacity/</link>
+        <description>udacity - Tag - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 06:06:59 &#43;0900</lastBuildDate><atom:link href="http://example.org/tags/udacity/" rel="self" type="application/rss+xml" /><item>
+    <title>220601</title>
+    <link>http://example.org/220601/</link>
+    <pubDate>Wed, 01 Jun 2022 06:06:59 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220601/</guid>
+    <description><![CDATA[Always I am improving developer!]]></description>
+</item>
+<item>
+    <title>220531</title>
+    <link>http://example.org/220531/</link>
+    <pubDate>Tue, 31 May 2022 05:21:56 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220531/</guid>
+    <description><![CDATA[<h1 id="polymorphism">Polymorphism</h1>
+<ul>
+<li>다형성(polymorphism)은 &ldquo;수 많은 형태를 가정&quot;했다는 의미</li>
+</ul>
+<h1 id="friend">Friend</h1>
+<ul>
+<li><code>friend</code> 클래스는 상속의 대안</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>220530</title>
+    <link>http://example.org/220530/</link>
+    <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220530/</guid>
+    <description><![CDATA[<h1 id="inheritance">Inheritance</h1>
+<ul>
+<li>&ldquo;Is a&rdquo;</li>
+</ul>
+<h1 id="access-specifier">Access specifier</h1>
+<ul>
+<li>상속 받을 때 접근자를 통해 상위 객체의 멤버 변수나 멤버 메소드에 접근을 제한할 수 있음</li>
+</ul>
+<h1 id="composition">Composition</h1>
+<ul>
+<li>&ldquo;Has a&rdquo;</li>
+</ul>]]></description>
+</item>
+</channel>
+</rss>
