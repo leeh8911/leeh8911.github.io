@@ -11,7 +11,13 @@
     <pubDate>Wed, 01 Jun 2022 06:06:59 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220601/</guid>
-    <description><![CDATA[Always I am improving developer!]]></description>
+    <description><![CDATA[<h2 id="polymorphism-overloading-review">Polymorphism: overloading (review)</h2>
+<h2 id="polymorphism-operator">Polymorphism: operator</h2>
+<h2 id="virtual-functions">Virtual Functions</h2>
+<h2 id="overriding">Overriding</h2>
+<h2 id="polymorphism-operator-1">Polymorphism: operator</h2>
+<h2 id="virtual-functions-1">Virtual Functions</h2>
+<h2 id="overriding-1">Overriding</h2>]]></description>
 </item>
 <item>
     <title>220531</title>

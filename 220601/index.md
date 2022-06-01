@@ -1,6 +1,14 @@
 # 220601
 
 
+## Polymorphism: overloading (review)
+## Polymorphism: operator
+## Virtual Functions
+## Overriding
+## Polymorphism: operator
+## Virtual Functions
+## Overriding
+
 <!--more-->
 
 ## Polymorphism: overloading (review)
@@ -254,7 +262,4 @@ int main() {
   assert(particle.theta != bicycle.theta);
 }
 ```
-
-## Multiple Inheritance
-* 
 
