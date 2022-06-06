@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/220606\/"
-        },"image": ["http:\/\/example.org\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "git, change_commit_date","wordcount":  35 ,
+        },"image": ["http:\/\/example.org\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "git, change_commit_date, sstream, iomanip, pad_digit, sysconf","wordcount":  152 ,
         "url": "http:\/\/example.org\/220606\/","datePublished": "2022-06-06T00:54:23+09:00","dateModified": "2022-06-06T00:54:23+09:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "http:\/\/example.org\/images\/avatar.png"},"author": {
@@ -73,7 +73,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">220606</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://www.linkedin.com/in/sangwon-lee-459b63156" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jaksam</a></span>&nbsp;<span class="post-category">included in <a href="/categories/til/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>TIL</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-06">2022-06-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;35 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-06">2022-06-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;152 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/220606/" class="leancloud_visitors" data-flag-title="220606">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
@@ -86,6 +86,12 @@
   <ul>
     <li><a href="#git-commit-날짜-바꾸기">Git commit 날짜 바꾸기</a></li>
   </ul>
+
+  <ul>
+    <li><a href="#elapsedtime-seconds-data-convert-hhmmss">ElapsedTime (seconds data convert HH:MM:SS)</a></li>
+    <li><a href="#sysconf">sysconf</a></li>
+    <li><a href="#istringstreamgood">istringstream.good</a></li>
+  </ul>
 </nav></div>
             </div><div class="content" id="content"><h1 id="git">Git</h1>
 <h2 id="git-commit-날짜-바꾸기">Git commit 날짜 바꾸기</h2>
@@ -94,6 +100,63 @@
 <li>특정 커밋에 대해 <code>--amend</code>는 이전 커밋 내용에 덮어쓰기의 의미</li>
 <li><code>--no-edit</code>은 현재 커밋 내용을 수정사항 없이 반영하겠다는 의미</li>
 <li><code>--date</code>는 날짜에 대한 옵션</li>
+</ul>
+<h1 id="udacity">Udacity</h1>
+<h2 id="elapsedtime-seconds-data-convert-hhmmss">ElapsedTime (seconds data convert HH:MM:SS)</h2>
+<ul>
+<li><code>&lt;iomanip&gt;</code>헤더 파일의 <code>std::setfill('0')</code>를 이용해 공백 자리를 <code>0</code>으로 채워넣고, <code>std::setw(2)</code>로 폭을 2로 설정해 놓음</li>
+<li><code>&lt;sstream&gt;</code> 헤더 파일의 <code>std::stringstream</code>을 이용해 문자열의 처리를 <code>&lt;&lt;</code> 연산으로 해결</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;sstream&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;iomanip&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">foo</span><span class="p">(</span><span class="kt">int32_t</span> <span class="n">seconds</span><span class="p">){</span>
+  <span class="kt">int32_t</span> <span class="n">second</span> <span class="o">=</span> <span class="n">seconds</span> <span class="o">%</span> <span class="mi">60</span><span class="p">;</span>
+  <span class="n">seconds</span> <span class="o">/=</span> <span class="mi">60</span><span class="p">;</span>
+  <span class="kt">int32_t</span> <span class="n">minute</span> <span class="o">=</span> <span class="n">seconds</span> <span class="o">%</span> <span class="mi">60</span><span class="p">;</span>
+  <span class="kt">int32_t</span> <span class="n">hour</span> <span class="o">=</span> <span class="n">seconds</span> <span class="o">/</span> <span class="mi">60</span><span class="p">;</span>
+
+  <span class="n">stringstream</span> <span class="nf">ss</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">);</span>
+  <span class="n">ss</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">setfill</span><span class="p">(</span><span class="sc">&#39;0&#39;</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">setw</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">&lt;&lt;</span>
+  <span class="n">hour</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;:&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">minute</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;:&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">second</span><span class="p">;</span>
+
+  <span class="k">return</span> <span class="n">ss</span><span class="p">.</span><span class="n">str</span><span class="p">();</span>
+<span class="p">}</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="sysconf">sysconf</h2>
+<ul>
+<li><code>sysconf</code> 런타임에 대한 설정 정보 획득</li>
+<li><a href="https://man7.org/linux/man-pages/man3/sysconf.3.html" target="_blank" rel="noopener noreffer">reference</a></li>
+<li><code>sysconf(_SC_CLK_TCK)</code> : 초당 클락(clock) 틱 수 정보를 얻음</li>
+</ul>
+<h2 id="istringstreamgood">istringstream.good</h2>
+<ul>
+<li><code>good</code> 스트림의 상태가 좋은지 확인</li>
+<li><a href="https://m.cplusplus.com/reference/ios/ios/good/" target="_blank" rel="noopener noreffer">std::ios::good</a></li>
 </ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -111,7 +174,7 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/git/">git</a>,&nbsp;<a href="/tags/change_commit_date/">change_commit_date</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/git/">git</a>,&nbsp;<a href="/tags/change_commit_date/">change_commit_date</a>,&nbsp;<a href="/tags/sstream/">sstream</a>,&nbsp;<a href="/tags/iomanip/">iomanip</a>,&nbsp;<a href="/tags/pad_digit/">pad_digit</a>,&nbsp;<a href="/tags/sysconf/">sysconf</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
