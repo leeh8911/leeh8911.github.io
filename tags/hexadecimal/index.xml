@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>hexadecimal - Tag - My New Hugo Site</title>
+        <link>http://example.org/tags/hexadecimal/</link>
+        <description>hexadecimal - Tag - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</lastBuildDate><atom:link href="http://example.org/tags/hexadecimal/" rel="self" type="application/rss+xml" /><item>
+    <title>220607</title>
+    <link>http://example.org/220607/</link>
+    <pubDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220607/</guid>
+    <description><![CDATA[<ul>
+<li>메모리 주소와 16진수</li>
+<li>CppND-System-Monitor-Project (Review)</li>
+</ul>]]></description>
+</item>
+</channel>
+</rss>

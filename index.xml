@@ -3,9 +3,20 @@
         <title>My New Hugo Site</title>
         <link>http://example.org/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Jun 2022 00:54:23 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>220607</title>
+    <link>http://example.org/220607/</link>
+    <pubDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220607/</guid>
+    <description><![CDATA[<ul>
+<li>메모리 주소와 16진수</li>
+<li>CppND-System-Monitor-Project (Review)</li>
+</ul>]]></description>
+</item>
+<item>
     <title>220606</title>
     <link>http://example.org/220606/</link>
     <pubDate>Mon, 06 Jun 2022 00:54:23 &#43;0900</pubDate>
