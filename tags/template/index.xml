@@ -9,8 +9,10 @@
     <pubDate>Thu, 02 Jun 2022 05:07:45 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220602/</guid>
-    <description><![CDATA[<h2 id="generic-programming">Generic Programming</h2>
-<h2 id="multiple-inheritance">Multiple Inheritance</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>Generic Programming</li>
+<li>Multiple Inheritance</li>
+</ul>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,10 +1,10 @@
 # 220603
 
 
-## Deduction
-## Exercise Class Template
-## System Monitor Project!
-## Style Code (C++)
+* Deduction
+* Exercise Class Template
+* System Monitor Project!
+* Style Code (C++)
 <!--more-->
 #Udacity
 ## Deduction

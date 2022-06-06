@@ -1,13 +1,13 @@
 # 220601
 
 
-## Polymorphism: overloading (review)
-## Polymorphism: operator
-## Virtual Functions
-## Overriding
-## Polymorphism: operator
-## Virtual Functions
-## Overriding
+* Polymorphism: overloading (review)
+* Polymorphism: operator
+* Virtual Functions
+* Overriding
+* Polymorphism: operator
+* Virtual Functions
+* Overriding
 
 <!--more-->
 

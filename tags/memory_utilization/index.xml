@@ -9,7 +9,9 @@
     <pubDate>Sun, 05 Jun 2022 20:40:22 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220605/</guid>
-    <description><![CDATA[Always I am improving developer!]]></description>
+    <description><![CDATA[<ul>
+<li>Memory Utilization</li>
+</ul>]]></description>
 </item>
 </channel>
 </rss>

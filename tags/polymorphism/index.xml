@@ -9,13 +9,9 @@
     <pubDate>Tue, 31 May 2022 05:21:56 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220531/</guid>
-    <description><![CDATA[<h2 id="polymorphism">Polymorphism</h2>
-<ul>
-<li>다형성(polymorphism)은 &ldquo;수 많은 형태를 가정&quot;했다는 의미</li>
-</ul>
-<h2 id="friend">Friend</h2>
-<ul>
-<li><code>friend</code> 클래스는 상속의 대안</li>
+    <description><![CDATA[<ul>
+<li>Polymorphism</li>
+<li>Friend</li>
 </ul>]]></description>
 </item>
 </channel>

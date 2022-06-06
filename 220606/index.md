@@ -1,6 +1,13 @@
 # 220606
 
 
+Git
+* Git commit 날짜 바꾸기
+Udacity
+* ElapsedTime (seconds data convert HH:MM:SS)
+* sysconf
+* istringstream.good
+* Memory Management Overview
 <!--more-->
 # Git
 ## Git commit 날짜 바꾸기
@@ -41,5 +48,13 @@ std::string foo(int32_t seconds){
 ## istringstream.good
 * `good` 스트림의 상태가 좋은지 확인
 * [std::ios::good](https://m.cplusplus.com/reference/ios/ios/good/)
+
+## Memory Management Overview
+1. Overview of Memory Types
+2. Variables and Memory
+3. Dynamic Memory Allocation
+4. Resource Copying Policies
+5. Smart Pointers
+6. Project: Memory Management Chatbot
 
 

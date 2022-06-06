@@ -1,11 +1,8 @@
 # 220530
 
-## Inheritance
-* "Is a"
-## Access specifier
-* 상속 받을 때 접근자를 통해 상위 객체의 멤버 변수나 멤버 메소드에 접근을 제한할 수 있음
-## Composition
-* "Has a"
+* Inheritance
+* Access specifier
+* Composition
 <!--more-->
 
 ## Inheritance

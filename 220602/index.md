@@ -1,7 +1,7 @@
 # 220602
 
-## Generic Programming
-## Multiple Inheritance
+* Generic Programming
+* Multiple Inheritance
 
 <!--more-->
 # Udacity

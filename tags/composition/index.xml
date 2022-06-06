@@ -9,17 +9,10 @@
     <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220530/</guid>
-    <description><![CDATA[<h2 id="inheritance">Inheritance</h2>
-<ul>
-<li>&ldquo;Is a&rdquo;</li>
-</ul>
-<h2 id="access-specifier">Access specifier</h2>
-<ul>
-<li>상속 받을 때 접근자를 통해 상위 객체의 멤버 변수나 멤버 메소드에 접근을 제한할 수 있음</li>
-</ul>
-<h2 id="composition">Composition</h2>
-<ul>
-<li>&ldquo;Has a&rdquo;</li>
+    <description><![CDATA[<ul>
+<li>Inheritance</li>
+<li>Access specifier</li>
+<li>Composition</li>
 </ul>]]></description>
 </item>
 </channel>

@@ -11,7 +11,15 @@
     <pubDate>Mon, 06 Jun 2022 00:54:23 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220606/</guid>
-    <description><![CDATA[Always I am improving developer!]]></description>
+    <description><![CDATA[<p>Git</p>
+<ul>
+<li>Git commit 날짜 바꾸기
+Udacity</li>
+<li>ElapsedTime (seconds data convert HH:MM:SS)</li>
+<li>sysconf</li>
+<li>istringstream.good</li>
+<li>Memory Management Overview</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220605</title>
@@ -19,7 +27,9 @@
     <pubDate>Sun, 05 Jun 2022 20:40:22 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220605/</guid>
-    <description><![CDATA[Always I am improving developer!]]></description>
+    <description><![CDATA[<ul>
+<li>Memory Utilization</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220604</title>
@@ -27,9 +37,11 @@
     <pubDate>Sat, 04 Jun 2022 07:41:25 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220604/</guid>
-    <description><![CDATA[<h2 id="system-data">System Data</h2>
-<h2 id="processor-data">Processor Data</h2>
-<h2 id="process-data">Process Data</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>System Data</li>
+<li>Processor Data</li>
+<li>Process Data</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220603</title>
@@ -37,10 +49,12 @@
     <pubDate>Fri, 03 Jun 2022 04:56:48 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220603/</guid>
-    <description><![CDATA[<h2 id="deduction">Deduction</h2>
-<h2 id="exercise-class-template">Exercise Class Template</h2>
-<h2 id="system-monitor-project">System Monitor Project!</h2>
-<h2 id="style-code-c">Style Code (C++)</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>Deduction</li>
+<li>Exercise Class Template</li>
+<li>System Monitor Project!</li>
+<li>Style Code (C++)</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220602</title>
@@ -48,8 +62,10 @@
     <pubDate>Thu, 02 Jun 2022 05:07:45 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220602/</guid>
-    <description><![CDATA[<h2 id="generic-programming">Generic Programming</h2>
-<h2 id="multiple-inheritance">Multiple Inheritance</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>Generic Programming</li>
+<li>Multiple Inheritance</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220601</title>
@@ -57,13 +73,15 @@
     <pubDate>Wed, 01 Jun 2022 06:06:59 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220601/</guid>
-    <description><![CDATA[<h2 id="polymorphism-overloading-review">Polymorphism: overloading (review)</h2>
-<h2 id="polymorphism-operator">Polymorphism: operator</h2>
-<h2 id="virtual-functions">Virtual Functions</h2>
-<h2 id="overriding">Overriding</h2>
-<h2 id="polymorphism-operator-1">Polymorphism: operator</h2>
-<h2 id="virtual-functions-1">Virtual Functions</h2>
-<h2 id="overriding-1">Overriding</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>Polymorphism: overloading (review)</li>
+<li>Polymorphism: operator</li>
+<li>Virtual Functions</li>
+<li>Overriding</li>
+<li>Polymorphism: operator</li>
+<li>Virtual Functions</li>
+<li>Overriding</li>
+</ul>]]></description>
 </item>
 <item>
     <title>220531</title>
@@ -71,13 +89,9 @@
     <pubDate>Tue, 31 May 2022 05:21:56 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220531/</guid>
-    <description><![CDATA[<h2 id="polymorphism">Polymorphism</h2>
-<ul>
-<li>다형성(polymorphism)은 &ldquo;수 많은 형태를 가정&quot;했다는 의미</li>
-</ul>
-<h2 id="friend">Friend</h2>
-<ul>
-<li><code>friend</code> 클래스는 상속의 대안</li>
+    <description><![CDATA[<ul>
+<li>Polymorphism</li>
+<li>Friend</li>
 </ul>]]></description>
 </item>
 <item>
@@ -86,17 +100,10 @@
     <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220530/</guid>
-    <description><![CDATA[<h2 id="inheritance">Inheritance</h2>
-<ul>
-<li>&ldquo;Is a&rdquo;</li>
-</ul>
-<h2 id="access-specifier">Access specifier</h2>
-<ul>
-<li>상속 받을 때 접근자를 통해 상위 객체의 멤버 변수나 멤버 메소드에 접근을 제한할 수 있음</li>
-</ul>
-<h2 id="composition">Composition</h2>
-<ul>
-<li>&ldquo;Has a&rdquo;</li>
+    <description><![CDATA[<ul>
+<li>Inheritance</li>
+<li>Access specifier</li>
+<li>Composition</li>
 </ul>]]></description>
 </item>
 </channel>

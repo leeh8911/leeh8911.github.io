@@ -1,9 +1,7 @@
 # 220531
 
-## Polymorphism
-* 다형성(polymorphism)은 "수 많은 형태를 가정"했다는 의미
-## Friend
-* `friend` 클래스는 상속의 대안
+* Polymorphism
+* Friend
 
 <!--more-->
 

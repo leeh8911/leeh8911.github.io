@@ -9,9 +9,11 @@
     <pubDate>Sat, 04 Jun 2022 07:41:25 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220604/</guid>
-    <description><![CDATA[<h2 id="system-data">System Data</h2>
-<h2 id="processor-data">Processor Data</h2>
-<h2 id="process-data">Process Data</h2>]]></description>
+    <description><![CDATA[<ul>
+<li>System Data</li>
+<li>Processor Data</li>
+<li>Process Data</li>
+</ul>]]></description>
 </item>
 </channel>
 </rss>

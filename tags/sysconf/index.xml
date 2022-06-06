@@ -9,7 +9,15 @@
     <pubDate>Mon, 06 Jun 2022 00:54:23 &#43;0900</pubDate>
     <author>Jaksam</author>
     <guid>http://example.org/220606/</guid>
-    <description><![CDATA[Always I am improving developer!]]></description>
+    <description><![CDATA[<p>Git</p>
+<ul>
+<li>Git commit 날짜 바꾸기
+Udacity</li>
+<li>ElapsedTime (seconds data convert HH:MM:SS)</li>
+<li>sysconf</li>
+<li>istringstream.good</li>
+<li>Memory Management Overview</li>
+</ul>]]></description>
 </item>
 </channel>
 </rss>
