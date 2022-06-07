@@ -3,7 +3,19 @@
         <title>TIL - Category - My New Hugo Site</title>
         <link>http://example.org/categories/til/</link>
         <description>TIL - Category - My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</lastBuildDate><atom:link href="http://example.org/categories/til/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 08 Jun 2022 05:08:49 &#43;0900</lastBuildDate><atom:link href="http://example.org/categories/til/" rel="self" type="application/rss+xml" /><item>
+    <title>220608</title>
+    <link>http://example.org/220608/</link>
+    <pubDate>Wed, 08 Jun 2022 05:08:49 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220608/</guid>
+    <description><![CDATA[<ul>
+<li>Type of Computer Memory</li>
+<li>Cache Memory</li>
+<li>Virtual Memory</li>
+</ul>]]></description>
+</item>
+<item>
     <title>220607</title>
     <link>http://example.org/220607/</link>
     <pubDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</pubDate>
