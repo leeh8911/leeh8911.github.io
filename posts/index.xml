@@ -3,7 +3,15 @@
         <title>All Posts - My New Hugo Site</title>
         <link>http://example.org/posts/</link>
         <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 08 Jun 2022 05:08:49 &#43;0900</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Jun 2022 10:32:17 &#43;0900</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>220611</title>
+    <link>http://example.org/220611/</link>
+    <pubDate>Sat, 11 Jun 2022 10:32:17 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220611/</guid>
+    <description><![CDATA[Always I am improving developer!]]></description>
+</item>
+<item>
     <title>220608</title>
     <link>http://example.org/220608/</link>
     <pubDate>Wed, 08 Jun 2022 05:08:49 &#43;0900</pubDate>
@@ -113,18 +121,6 @@ Udacity</li>
     <description><![CDATA[<ul>
 <li>Polymorphism</li>
 <li>Friend</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220530</title>
-    <link>http://example.org/220530/</link>
-    <pubDate>Mon, 30 May 2022 23:09:16 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220530/</guid>
-    <description><![CDATA[<ul>
-<li>Inheritance</li>
-<li>Access specifier</li>
-<li>Composition</li>
 </ul>]]></description>
 </item>
 </channel>

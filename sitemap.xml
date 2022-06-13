@@ -2,32 +2,36 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://example.org/220611/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/clang_format/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/matrix_multiplicity/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/til/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/vector_operation_/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/220608/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/cache_memory/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/memory/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/til/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/virtual_memory/</loc><lastmod>2022-06-08T05:08:49&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/220607/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/hexadecimal/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/memory_address/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/220606/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/change_commit_date/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/git/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/iomanip/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/pad_digit/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/sstream/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/sysconf/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/220605/</loc><lastmod>2022-06-05T20:40:22&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/memory_utilization/</loc><lastmod>2022-06-05T20:40:22&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/220604/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/linux_system_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/process_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/processor_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/system_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/220607/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/hexadecimal/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/memory_address/</loc><lastmod>2022-06-07T05:09:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/220606/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/change_commit_date/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/git/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/iomanip/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/pad_digit/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/sstream/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/sysconf/</loc><lastmod>2022-06-06T00:54:23&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/220605/</loc><lastmod>2022-06-05T20:40:22&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/memory_utilization/</loc><lastmod>2022-06-05T20:40:22&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/220604/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/linux_system_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/process_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/processor_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/tags/system_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/220603/</loc><lastmod>2022-06-03T04:56:48&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/tags/deduction/</loc><lastmod>2022-06-03T04:56:48&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/220602/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
@@ -39,11 +43,11 @@
             <loc>http://example.org/tags/overriding/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/tags/udacity/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/tags/virtual_function/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/220531/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/friend/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/overloading/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/polymorphism/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/access-specifier/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/composition/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/inheritance/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url></urlset>
+            <loc>http://example.org/220531/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/friend/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/overloading/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/polymorphism/</loc><lastmod>2022-05-31T05:21:56&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/220530/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/access-specifier/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/composition/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/inheritance/</loc><lastmod>2022-05-30T23:09:16&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url></urlset>
