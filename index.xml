@@ -3,9 +3,17 @@
         <title>My New Hugo Site</title>
         <link>http://example.org/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Jun 2022 10:32:17 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jun 2022 23:35:11 &#43;0900</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>220615</title>
+    <link>http://example.org/220615/</link>
+    <pubDate>Tue, 14 Jun 2022 23:35:11 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220615/</guid>
+    <description><![CDATA[Always I am improving developer!]]></description>
+</item>
+<item>
     <title>220611</title>
     <link>http://example.org/220611/</link>
     <pubDate>Sat, 11 Jun 2022 10:32:17 &#43;0900</pubDate>
@@ -112,17 +120,6 @@ Udacity</li>
 <li>Polymorphism: operator</li>
 <li>Virtual Functions</li>
 <li>Overriding</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220531</title>
-    <link>http://example.org/220531/</link>
-    <pubDate>Tue, 31 May 2022 05:21:56 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220531/</guid>
-    <description><![CDATA[<ul>
-<li>Polymorphism</li>
-<li>Friend</li>
 </ul>]]></description>
 </item>
 </channel>
