@@ -2,13 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://example.org/220616/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/cmake/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/glob_recursive/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/google_engineer/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/categories/til/</loc><lastmod>2022-06-16T06:29:40&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/220615/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/hungarian_algorithm/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/til/</loc><lastmod>2022-06-14T23:35:11&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/220611/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/clang_format/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://example.org/tags/matrix_multiplicity/</loc><lastmod>2022-06-11T10:32:17&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -36,10 +40,10 @@
             <loc>http://example.org/tags/system_data/</loc><lastmod>2022-06-04T07:41:25&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/220603/</loc><lastmod>2022-06-03T04:56:48&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://example.org/tags/deduction/</loc><lastmod>2022-06-03T04:56:48&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/220602/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/generic_programming/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/multiple_inheritance/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>http://example.org/tags/template/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://example.org/220602/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/generic_programming/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/multiple_inheritance/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>http://example.org/tags/template/</loc><lastmod>2022-06-02T05:07:45&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://example.org/220601/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://example.org/tags/operator_overloading/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>http://example.org/tags/overriding/</loc><lastmod>2022-06-01T06:06:59&#43;09:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
