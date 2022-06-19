@@ -3,9 +3,40 @@
         <title>My New Hugo Site</title>
         <link>http://example.org/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 06:29:40 &#43;0900</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Jun 2022 04:51:11 &#43;0900</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>220620</title>
+    <link>http://example.org/220620/</link>
+    <pubDate>Mon, 20 Jun 2022 04:51:11 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220620/</guid>
+    <description><![CDATA[<ul>
+<li>Using malloc and free</li>
+<li>Using new and delete</li>
+<li>Typical memory management problems</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>220619</title>
+    <link>http://example.org/220619/</link>
+    <pubDate>Sun, 19 Jun 2022 11:44:01 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220619/</guid>
+    <description><![CDATA[<ul>
+<li>Heap memory</li>
+<li>Using malloc and free</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>220618</title>
+    <link>http://example.org/220618/</link>
+    <pubDate>Sat, 18 Jun 2022 08:50:18 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220618/</guid>
+    <description><![CDATA[<p>&hellip;Nothing..</p>]]></description>
+</item>
+<item>
     <title>220616</title>
     <link>http://example.org/220616/</link>
     <pubDate>Thu, 16 Jun 2022 06:29:40 &#43;0900</pubDate>
@@ -88,42 +119,6 @@ Udacity</li>
     <guid>http://example.org/220605/</guid>
     <description><![CDATA[<ul>
 <li>Memory Utilization</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220604</title>
-    <link>http://example.org/220604/</link>
-    <pubDate>Sat, 04 Jun 2022 07:41:25 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220604/</guid>
-    <description><![CDATA[<ul>
-<li>System Data</li>
-<li>Processor Data</li>
-<li>Process Data</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220603</title>
-    <link>http://example.org/220603/</link>
-    <pubDate>Fri, 03 Jun 2022 04:56:48 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220603/</guid>
-    <description><![CDATA[<ul>
-<li>Deduction</li>
-<li>Exercise Class Template</li>
-<li>System Monitor Project!</li>
-<li>Style Code (C++)</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220602</title>
-    <link>http://example.org/220602/</link>
-    <pubDate>Thu, 02 Jun 2022 05:07:45 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220602/</guid>
-    <description><![CDATA[<ul>
-<li>Generic Programming</li>
-<li>Multiple Inheritance</li>
 </ul>]]></description>
 </item>
 </channel>
