@@ -3,7 +3,24 @@
         <title>All Posts - My New Hugo Site</title>
         <link>http://example.org/posts/</link>
         <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 21 Jun 2022 05:05:37 &#43;0900</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Jun 2022 05:02:26 &#43;0900</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>220624</title>
+    <link>http://example.org/220624/</link>
+    <pubDate>Fri, 24 Jun 2022 05:02:26 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220624/</guid>
+    <description><![CDATA[<ul>
+<li>Copy Semantics
+<ul>
+<li>Exclusive copy class</li>
+<li>Deep copy class</li>
+<li>Shared copy class</li>
+</ul>
+</li>
+<li>L-values and R-values</li>
+</ul>]]></description>
+</item>
+<item>
     <title>220621</title>
     <link>http://example.org/220621/</link>
     <pubDate>Tue, 21 Jun 2022 05:05:37 &#43;0900</pubDate>
@@ -101,22 +118,6 @@
     <description><![CDATA[<ul>
 <li>메모리 주소와 16진수</li>
 <li>CppND-System-Monitor-Project (Review)</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220606</title>
-    <link>http://example.org/220606/</link>
-    <pubDate>Mon, 06 Jun 2022 00:54:23 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220606/</guid>
-    <description><![CDATA[<p>Git</p>
-<ul>
-<li>Git commit 날짜 바꾸기
-Udacity</li>
-<li>ElapsedTime (seconds data convert HH:MM:SS)</li>
-<li>sysconf</li>
-<li>istringstream.good</li>
-<li>Memory Management Overview</li>
 </ul>]]></description>
 </item>
 </channel>
