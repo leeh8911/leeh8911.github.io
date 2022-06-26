@@ -3,7 +3,45 @@
         <title>TIL - Category - My New Hugo Site</title>
         <link>http://example.org/categories/til/</link>
         <description>TIL - Category - My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Jun 2022 05:02:26 &#43;0900</lastBuildDate><atom:link href="http://example.org/categories/til/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jun 2022 04:38:17 &#43;0900</lastBuildDate><atom:link href="http://example.org/categories/til/" rel="self" type="application/rss+xml" /><item>
+    <title>220627</title>
+    <link>http://example.org/220627/</link>
+    <pubDate>Mon, 27 Jun 2022 04:38:17 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220627/</guid>
+    <description><![CDATA[<ul>
+<li>Resource Acquisition is Initialization
+<ul>
+<li>자원의 획득과 해제:</li>
+<li>신뢰할 수 있는 자원 해제 문제</li>
+<li>RAII to the rescue</li>
+</ul>
+</li>
+<li>What is RAII</li>
+</ul>]]></description>
+</item>
+<item>
+    <title>220626</title>
+    <link>http://example.org/220626/</link>
+    <pubDate>Sun, 26 Jun 2022 09:35:15 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220626/</guid>
+    <description><![CDATA[<ul>
+<li>Move semantic
+<ul>
+<li>Rule of Tree: 메모리 관리를 위해 필요한 것</li>
+<li>before C++11 SMART POINTER</li>
+</ul>
+</li>
+<li>Resource Acquisition is initialization
+<ul>
+<li><code>new</code>와 <code>delete</code>에 대한 문제점들</li>
+<li>스마트 포인터의 이점</li>
+</ul>
+</li>
+</ul>]]></description>
+</item>
+<item>
     <title>220624</title>
     <link>http://example.org/220624/</link>
     <pubDate>Fri, 24 Jun 2022 05:02:26 &#43;0900</pubDate>
@@ -96,29 +134,6 @@
     <author>Jaksam</author>
     <guid>http://example.org/220611/</guid>
     <description><![CDATA[Always I am improving developer!]]></description>
-</item>
-<item>
-    <title>220608</title>
-    <link>http://example.org/220608/</link>
-    <pubDate>Wed, 08 Jun 2022 05:08:49 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220608/</guid>
-    <description><![CDATA[<ul>
-<li>Type of Computer Memory</li>
-<li>Cache Memory</li>
-<li>Virtual Memory</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>220607</title>
-    <link>http://example.org/220607/</link>
-    <pubDate>Tue, 07 Jun 2022 05:09:59 &#43;0900</pubDate>
-    <author>Jaksam</author>
-    <guid>http://example.org/220607/</guid>
-    <description><![CDATA[<ul>
-<li>메모리 주소와 16진수</li>
-<li>CppND-System-Monitor-Project (Review)</li>
-</ul>]]></description>
 </item>
 </channel>
 </rss>

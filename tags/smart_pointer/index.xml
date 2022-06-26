@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>smart_pointer - Tag - My New Hugo Site</title>
+        <link>http://example.org/tags/smart_pointer/</link>
+        <description>smart_pointer - Tag - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 26 Jun 2022 09:35:15 &#43;0900</lastBuildDate><atom:link href="http://example.org/tags/smart_pointer/" rel="self" type="application/rss+xml" /><item>
+    <title>220626</title>
+    <link>http://example.org/220626/</link>
+    <pubDate>Sun, 26 Jun 2022 09:35:15 &#43;0900</pubDate>
+    <author>Jaksam</author>
+    <guid>http://example.org/220626/</guid>
+    <description><![CDATA[<ul>
+<li>Move semantic
+<ul>
+<li>Rule of Tree: 메모리 관리를 위해 필요한 것</li>
+<li>before C++11 SMART POINTER</li>
+</ul>
+</li>
+<li>Resource Acquisition is initialization
+<ul>
+<li><code>new</code>와 <code>delete</code>에 대한 문제점들</li>
+<li>스마트 포인터의 이점</li>
+</ul>
+</li>
+</ul>]]></description>
+</item>
+</channel>
+</rss>
